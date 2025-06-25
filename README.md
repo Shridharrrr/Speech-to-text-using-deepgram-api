@@ -1,12 +1,80 @@
-# React + Vite
+````md
+# 🎙️ Deepgram Live Voice Transcriber
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A cool web tool that listens to your voice and transcribes it live using the [Deepgram Speech-to-Text API](https://deepgram.com/product/speech-to-text). Built with **Vite**, **React**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎤 Real-time voice transcription via microphone
+- 📝 Live stacking transcript in a textarea
+- 🛑 Start/Stop recording toggle
+- 🔄 Refresh transcript with one click
+- ⚡ Fast performance using Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/deepgram-transcriber.git
+cd deepgram-transcriber
+````
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Create a `.env` file
+
+At the root of the project, create a `.env` file and add your [Deepgram API Key](https://console.deepgram.com/signup):
+
+```env
+VITE_DEEPGRAM_API_KEY=your_deepgram_api_key_here
+```
+
+> 🔐 Make sure your API key is kept private and `.env` is in `.gitignore`.
+
+---
+
+## 🧪 Run the Project
+
+```bash
+npm run dev
+```
+
+Then open your browser at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🛠 Tech Stack
+
+* **Frontend**: React + Tailwind CSS
+* **Build Tool**: Vite
+* **Speech-to-Text**: Deepgram WebSocket API
+
+---
+
+## 📁 Folder Structure
+
+```
+deepgram-transcriber/
+├─ public/
+├─ src/
+│  ├─ App.jsx
+│  ├─ main.jsx
+│  └─ index.css
+├─ .env
+├─ index.html
+├─ tailwind.config.js
+├─ vite.config.js
+```
