@@ -1,4 +1,3 @@
-````md
 # 🎙️ Deepgram Live Voice Transcriber
 
 A cool web tool that listens to your voice and transcribes it live using the [Deepgram Speech-to-Text API](https://deepgram.com/product/speech-to-text). Built with **Vite**, **React**, and **Tailwind CSS**.
