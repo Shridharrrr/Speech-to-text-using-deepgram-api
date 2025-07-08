@@ -19,7 +19,7 @@ A cool web tool that listens to your voice and transcribes it live using the [De
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/deepgram-transcriber.git
+git clone https://github.com/Shridharrrr/Speech-to-text-using-deepgram-api.git
 cd deepgram-transcriber
 ````
 
